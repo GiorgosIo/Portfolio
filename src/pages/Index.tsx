@@ -4,6 +4,7 @@ import Summary from "../components/Summary";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Achievements from "../components/Achievements";
+import Education from "../components/Education";
 
 const Index = () => {
   useEffect(() => {
@@ -14,9 +15,10 @@ const Index = () => {
     <main className="min-h-screen">
       <Hero />
       <Summary />
-      <Projects />
       <Skills />
+      <Projects />
       <Achievements />
+      <Education />
     </main>
   );
 };
