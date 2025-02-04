@@ -34,7 +34,7 @@ const projects = [
   },
 ];
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 3;
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -54,7 +54,7 @@ const Projects = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold mb-12 text-center">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {paginatedProjects.map((project, index) => (
             <motion.div
               key={index}

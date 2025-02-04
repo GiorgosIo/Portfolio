@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Hero from "../components/Hero";
+import Summary from "../components/Summary";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Achievements from "../components/Achievements";
@@ -12,6 +13,7 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <Hero />
+      <Summary />
       <Projects />
       <Skills />
       <Achievements />

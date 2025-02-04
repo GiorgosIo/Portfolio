@@ -27,7 +27,7 @@ const achievements = [
   },
 ];
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 3;
 
 const Achievements = () => {
   const [currentPage, setCurrentPage] = useState(1);
